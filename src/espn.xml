@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE resultados SYSTEM "espn.dtd">
+
+<resultados>
+    <calendario>
+        <partidojugado>
+            <nombreequipo1></nombreequipo1>
+            <nombreequipo2></nombreequipo2>
+            <logo1></logo1>
+            <logo2></logo2>
+            <resultado></resultado>
+            <goles></goles>
+            <goljugador></goljugador>
+            <minutogol></minutogol>
+            <tarjetasrojas></tarjetasrojas>
+            <minutotarjetaroja></minutotarjetaroja>
+        </partidojugado>
+        <partidoporjugar>
+            <nombreequipo1></nombreequipo1>
+            <nombreequipo2></nombreequipo2>
+            <logo1></logo1>
+            <logo2></logo2>
+            <racha></racha>
+            <horapartido></horapartido>
+            <diapartido></diapartido>
+        </partidoporjugar>
+    </calendario>
+</resultados>

@@ -1,0 +1,17 @@
+<!ELEMENT resultados (calendario)*>
+<!ELEMENT calendario (partidojugado, partidoporjugar)*>
+<!ELEMENT partidojugado (nombreequipo1, nombreequipo2, logo1, logo2, resultado, goles, goljugador, minutogol, tarjetasrojas, minutotarjetaroja)*>
+<!ELEMENT nombreequipo1 (#PCDATA)>
+<!ELEMENT nombreequipo2 (#PCDATA)>
+<!ELEMENT logo1 (#PCDATA)>
+<!ELEMENT logo2 (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+<!ELEMENT goles (#PCDATA)>
+<!ELEMENT goljugador (#PCDATA)>
+<!ELEMENT minutogol (#PCDATA)>
+<!ELEMENT tarjetasrojas (#PCDATA)>
+<!ELEMENT minutotarjetaroja (#PCDATA)>
+<!ELEMENT partidoporjugar (nombreequipo1, nombreequipo2, logo1, logo2, racha, horapartido, diapartido)*>
+<!ELEMENT racha (#PCDATA)>
+<!ELEMENT horapartido (#PCDATA)>
+<!ELEMENT diapartido (#PCDATA)>
